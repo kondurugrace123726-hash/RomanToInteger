@@ -1,2 +1,2 @@
 # RomanToInteger
-Changing roman numbers into integers
+Changing roman numerals to integers
