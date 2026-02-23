@@ -29,3 +29,15 @@ class Solution:
                 total += current_value
             prev_value = current_value
         return total
+        
+if __name__ == "__main__":
+    sol = Solution()
+    examples = ["III", "IV", "IX", "LVIII", "MCMXCIV"]
+
+    for roman in examples:
+        print(f"{roman} -> {sol.romanToInt(roman)}")
+
+    user_input = input("\nEnter a Roman numeral to convert: ").upper()
+    if user_input:
+        print(f"{user_input} -> {sol.romanToInt(user_input)}")
+        
